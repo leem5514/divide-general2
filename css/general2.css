@@ -1,0 +1,96 @@
+
+body{
+
+}
+.button {
+    background-color: #4CAF50; /* 버튼 배경색 */
+  border: none; /* 테두리 제거 */
+  color: white; /* 버튼 글자색 */
+  padding: 10px 20px; /* 버튼 내부 여백 */
+  text-align: center; /* 버튼 내부 텍스트 중앙정렬 */
+  text-decoration: none; /* 텍스트 밑줄 제거 */
+  display: inline-block; /* 인라인 요소로 배치 */
+  font-size: 20px; /* 글자 크기 */
+  margin: 5px; /* 버튼간 간격 */
+  border-radius: 50%; /* 버튼을 원형으로 만듦 */
+  width: 80px; /* 버튼 너비 */
+  height: 80px; /* 버튼 높이 */
+}
+  
+
+  
+/* 홈 버튼 스타일링 */
+#home-button {
+    float: left; /* 오른쪽으로 배치 */
+
+}
+
+/* 뒤로가기 버튼 스타일링 */  
+#back-button {
+    float: left; /* 오른쪽으로 배치 */
+
+}
+  /* 버튼에 hover 효과 적용 */
+.button:hover {
+    background-color: #3e8e41; /* hover 시 배경색 변경 */
+}
+
+.cocktail-title {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cocktail-title hr {
+    border: none;
+    height: 3px;
+    width: 80%;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* */
+.container {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 
+      solid
+      1px
+      #CCC;
+}
+
+
+.alcol .fruit .juice .material {
+    font-size: 1.15em;
+    font-weight: 700;
+    line-height: 1em;
+    color: #222;
+}
+
+
+a.button {
+    display: block;
+    float: left;
+    width: 120px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+    background-color : #5DC8CD;
+
+  }
+
+.button:hover {
+   background: #21825B;
+}
+.clear {
+    clear: both;
+}

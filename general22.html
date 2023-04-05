@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>general2 - category</title>
+    <link rel="stylesheet" type="text/css" href="css/general22.css">
+
+    
+</head>
+<body>
+    <button class="button" id="home-button">홈</button>
+    <button class="button" id="back-button">뒤로<br>가기</button>
+
+    <br>
+    <br>
+    <div class="cocktail-title">
+        COCKTAIL
+        <hr />
+    </div>
+
+    <div id="container">
+        <div>
+            <div>
+                <input id="display" type="text" />
+                <button onclick="del()">삭제</button>
+                <button onclick="reset()">초기화</button>
+            </div>
+            <div class="category">
+                <p class="alcol"></p>
+                <button onclick="addOutput('진 ')">진</button>
+                <button onclick="addOutput('보드카 ')">보드카</button>
+                <button onclick="addOutput('워커 ')">워커</button>
+                <button onclick="addOutput('와인 ')">와인</button>
+            </div>
+            <div class="category">
+                <p class="fruit"></p>
+                <button onclick="addOutput('사과 ')">사과</button>
+                <button onclick="addOutput('딸기 ')">딸기</button>
+                <button onclick="addOutput('라임 ')">라임</button>
+                <button onclick="addOutput('오렌지 ')">오렌지</button>
+                <button onclick="addOutput('레몬 ')">레몬</button>            
+            </div>
+            <div class="category">
+                <p class="juice"></p>
+                <button onclick="addOutput('오렌지쥬스 ')">오렌지쥬스</button>
+                <button onclick="addOutput('사과쥬스 ')">사과쥬스</button>
+                <button onclick="addOutput('탄산수 ')">탄산수</button>
+            </div>
+            <div class="category">
+                <p class="material"></p>
+                <button onclick="addOutput('오렌지쥬스 ')">오렌지쥬스</button>
+                <button onclick="addOutput('사과쥬스 ')">사과쥬스</button>
+                <button onclick="addOutput('탄산수 ')">탄산수</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn_general">Start</button> <!-- Start 버튼 추가 -->
+</div>
+<script src="js/general22.js"></script>
+
+    
+
+</body>
+</html>

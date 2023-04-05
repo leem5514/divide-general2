@@ -1,0 +1,90 @@
+.cocktails-container {
+    background-color: pink;
+    object-fit:cover;
+  display: flex;
+  height: 100vh;
+}
+
+.cocktail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  border: 2px red;
+}
+
+.cocktail:hover {
+  transform: scale(0.9);
+  border: 3px solid #333; /* 이미지 테두리 속성 */
+}
+
+.normal {
+  background-image: url('cock.png'); /*이미지 삽입*/
+  background-size: cover;
+  background-position: 50% 0; /* 이미지를 가운데로 맞춤 */
+  border-radius: 30% 30% 30% 30%; /* 이미지 모서리를 둥글게 만듦 */
+  
+}
+
+.normal h2 {
+  color: #FFF;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  -webkit-text-stroke: 2px pink; /* 글씨 테두리 속성 */
+  text-align: center;
+  
+}
+
+.normal .btn_general {
+  background-color: #FFF;
+  color: #333;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.normal .btn_general:hover {
+  background-color: #333;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.convenience {
+  background-image: url('conven.png'); /*이미지 삽입*/
+  background-size: cover;
+  background-position: 50% 0; /* 이미지를 가운데로 맞춤 */
+  border-radius: 30% 30% 30% 30%; /* 이미지 모서리를 둥글게 만듦 */
+
+
+}
+
+.convenience h2 {
+  color: #FFF;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  -webkit-text-stroke: 2px pink; /* 글씨 테두리 속성 */
+  text-align: center;
+}
+
+.convenience .btn_convenience {
+  background-color: #FFF;
+  color: #fcb900;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.convenience .btn_convenience:hover {
+  background-color: #fcb900;
+  color: #FFF;
+  cursor: pointer;
+}

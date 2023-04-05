@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>general3 - category</title>
+    <link rel="stylesheet" type="text/css" href="css/general33.css">
+
+</head>
+<body>
+    <button class="button" id="home-button">홈</button>
+    <button class="button" id="back-button">뒤로<br>가기</button>
+
+    <br>
+    <br>
+    <div class="cocktail-title">
+        COCKTAIL
+        <hr />
+    </div>
+    <ul class="menu">
+        <li>
+          <a>술</a>
+          <ul class="submenu">
+            <li><a onclick="addOutput('진 ')">진</a></li>
+            <li><a onclick="addOutput('워커 ')">워커</a></li>
+            <li><a onclick="addOutput('보드카 ')">보드카</a></li>
+            <li><a onclick="addOutput('와인 ')">와인</a></li>
+            <li><a onclick="addOutput('럼 ')">럼</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>과일</a>
+          <ul class="submenu">
+            <li><a onclick="addOutput('사과 ')">사과</a></li>
+            <li><a onclick="addOutput('오렌지 ')">오렌지</a></li>
+            <li><a onclick="addOutput('레몬 ')">레몬</a></li>
+            <li><a onclick="addOutput('라임 ')">라임</a></li>
+            <li><a onclick="addOutput('딸기 ')">딸기</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>음료</a>
+          <ul class="submenu">
+            <li><a onclick="addOutput('오렌지쥬스 ')">오렌지쥬스</a></li>
+            <li><a onclick="addOutput('사과쥬스 ')">사과쥬스</a></li>
+            <li><a onclick="addOutput('커피 ')">커피</a></li>
+            <li><a onclick="addOutput('탄산수 ')">탄산수</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>재료</a>
+          <ul class="submenu">
+            <li><a onclick="addOutput('소금 ')">소금</a></li>
+            <li><a onclick="addOutput('후추 ')">후추</a></li>
+            <li><a onclick="addOutput('시나몬 ')">시나몬</a></li>
+            <li><a onclick="addOutput('설탕 ')">설탕</a></li>
+          </ul>
+        </li>
+        
+    </ul>
+
+    <div class="container">
+        <input id="display" type="text" />
+        <button class="btn"onclick="del()">삭제</button>
+        <button class="btn" onclick="reset()">초기화</button>
+    </div>
+
+    
+</div>
+<script src="js/general33.js"></script>
+
+</body>
+</html>
